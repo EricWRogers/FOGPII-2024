@@ -406,6 +406,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c53a5f695789f5bb3900fe0c588549c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equiped:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 410087039}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  reload:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &589583840
 Transform:
   m_ObjectHideFlags: 0
@@ -499,6 +517,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e949b6a4b39bafc38e784dbcde2ec29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swapped:
+    m_PersistentCalls:
+      m_Calls: []
   weapons:
   - {fileID: 589583839}
   - {fileID: 2085998805}
@@ -549,6 +570,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b4036ae7741598928385c6484ce90f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equiped:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 410087039}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  reload:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &2085998806
 Transform:
   m_ObjectHideFlags: 0
