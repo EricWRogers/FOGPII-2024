@@ -5,6 +5,6 @@ using UnityEngine;
 public class ServiceLocator : MonoBehaviour
 {
     public SLPlayer player;
-    public List<SLEnemey> enemies;
+    public List<SLEnemy> enemies;
     public SLAudioManager audioManager;
 }
