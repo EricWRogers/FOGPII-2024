@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5100a72f2a80b41b6b9ac7af50c2d881, type: 3}
+  m_Name: TestAudioSetOne
+  m_EditorClassIdentifier: 
+  sFX:
+  - name: click
+    clip: {fileID: 8300000, guid: 9c759b5a4230a8580a1a867653a23a40, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    channel: 1
+  - name: fireball
+    clip: {fileID: 8300000, guid: 7723bcb690f8d8eb99a5ccc973933218, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    channel: 1
+  music:
+  - name: theme
+    clip: {fileID: 8300000, guid: a0034bfee4d731285ba2548a20c6d10a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    channel: 0
+  shuffleMusic: 1

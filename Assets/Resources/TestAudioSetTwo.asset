@@ -10,8 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5100a72f2a80b41b6b9ac7af50c2d881, type: 3}
-  m_Name: TestAudioSet
+  m_Name: TestAudioSetTwo
   m_EditorClassIdentifier: 
-  sFX: []
-  music: []
+  sFX:
+  - name: click
+    clip: {fileID: 8300000, guid: 7723bcb690f8d8eb99a5ccc973933218, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    channel: 1
+  music:
+  - name: improvisation
+    clip: {fileID: 8300000, guid: b6c276ee4e5c787f3af40167f50462d3, type: 3}
+    volume: 0.792
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    channel: 0
   shuffleMusic: 1
